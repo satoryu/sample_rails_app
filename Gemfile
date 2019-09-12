@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
-gem 'omniauth-moneyforward-invoice'
+gem 'omniauth-moneyforward-invoice', github: 'sato-ryu/omniauth-moneyforward-invoice', branch: 'loads_required_gems'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
